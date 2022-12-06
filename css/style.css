@@ -31,7 +31,7 @@ body {
     height: 60px;
     border-radius: 25px 25px 0 0;
     margin: auto;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .button {
@@ -58,16 +58,16 @@ body {
     border-radius: 0 0 25px 25px;
     margin: auto;
     margin-top: 5px;
-    max-width: 800px;
+    max-width: 600px;
 }
 
 .list-title {
     margin-left: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .list-item {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .mark{
@@ -90,4 +90,12 @@ body {
 
 .mark.mobile {
     background-color: rgb(255, 94, 0);
+}
+
+.mark.website {
+    background: rgb(248, 93, 197);
+}
+
+.mark.sales {
+    background: rgb(79, 128, 0);
 }
