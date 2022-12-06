@@ -67,13 +67,27 @@ body {
 }
 
 .list-item {
-    margin-left: 20px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
-.editorial {
-    background-color: #47ADF1;
+.mark{
     border-radius: 9px;
     padding: 2px 5px 2px;
     color: white;
+}
+
+.mark.editorial {
+    background-color: #47ADF1;
+}
+
+.mark.goals {
+    background-color: #64138a;
+}
+
+.mark.recruiting {
+    background-color: rgb(10, 122, 10);
+}
+
+.mark.mobile {
+    background-color: rgb(255, 94, 0);
 }
