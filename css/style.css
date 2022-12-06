@@ -6,16 +6,43 @@
 }
 
 body {
-    background-color: rgb(220,220,220);
+    background-color: #EEEEEE;
 }
 
 .header1 {
     background-color: white;
-    font-size: 78px;
+    font-size: 58px;
     font-weight: bolder;
+    margin-bottom: 40px;
 }
 
 .logo {
-    height: 100px;
+    height: 80px;
     vertical-align: middle;
+}
+
+.fieldset1 {
+    background-color: white;
+    height: 60px;
+    border-radius: 25px 25px 0 0;
+    margin: auto;
+    max-width: 800px;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.bluebutton {
+    margin: 20px 5px 20px 40px;
+    background-color: #47ADF1;
+    color: white;
+}
+
+.whitebutton {
+    margin: 20px 5px 20px 0px;
+    background-color: #FFFFFF;
+    border: solid 1px #CCCCCC;
+    color: #CCCCCC;
 }
